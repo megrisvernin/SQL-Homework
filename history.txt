@@ -1,0 +1,340 @@
+    1  git -- version
+    2  git --version
+    3  ls
+    4  cd Documents
+    5  ls
+    6  cd git projects
+    7  cd gitprojects
+    8  git --version
+    9  mkdir hello-world
+   10  cd hello-world
+   11  cd -
+   12  cd hello-world
+   13  ls -al
+   14  git init
+   15  l
+   16  ls -al
+   17  ls
+   18  git status
+   19  touch test.txt
+   20  touch test.txt
+   21  ls 
+   22  cat test.txt
+   23  vi test.txt
+   24  cat test.txt [A
+   25  git status
+   26  git add test.txt
+   27  git status
+   28  git commit test.txt
+   29  git config --global useremail "megrisvernin@gmail.com"
+   30  git config --global user.email "megrisvernin@gmail.com"
+   31  git config --global user.name "Thomas Pelletier"
+   32  git config --global --list 
+   33  git config --global --list
+   34  git commit test.txt
+   35  git commit test.txt
+   36  rm test.txt
+   37  vi text.txt
+   38  git status
+   39  add test.txt
+   40  add text.txt
+   41  git status
+   42  git add text.txt
+   43  git status
+   44  git add test.txt
+   45  git status
+   46  GIT COMMIT
+   47  git commit
+   48  git commit
+   49  git commit
+   50  git status
+   51  git log
+   52  git remote add origin https://github.com/megrisvernin/hello-world.git
+   53  git remote -v
+   54  git push -u
+   55  git push -u origin master
+   56  git status
+   57  clear
+   58  git status
+   59  echo "something"> test2.txt
+   60  git add test2.txt
+   61  git commit -m "next file added"
+   62  git push 
+   63  git status
+   64  ls
+   65  cs Documents
+   66  cd documents
+   67  ls
+   68  cd SQL Server Management Studio
+   69  cd 'SQL Server Management Studio'
+   70  ls
+   71  clear
+   72  ls
+   73  git commit 'My table'.sql
+   74  clear
+   75  ls
+   76  git add Myable.sql
+   77  git status
+   78  git branch
+   79  git remote -v
+   80  add Mytable.sql
+   81  git add initial commit
+   82  cd ...
+   83  cd ..
+   84  git add Mytable.sql
+   85  clear
+   86  git init
+   87  git add Mytable.sql
+   88  git commit
+   89  lear
+   90  clear
+   91  git status
+   92  clear
+   93  ls
+   94  git status
+   95  git remote
+   96  git status
+   97  git remote add origin https://github.com/megrisvernin/SharedProject.git
+   98  git status
+   99  git remote add origin https://github.com/megrisvernin/SharedProject.git
+  100  push -u origin master
+  101  git push -u origin master
+  102  git remote add origin https://github.com/megrisvernin/SharedProject.git
+  103  git commit -m "first commit"
+  104  branch -M master
+  105  git branch -M master
+  106  git status
+  107  git push -u origin master
+  108  cd 'C:\Users\Tom\Documents\SQL Server Management Studio'
+  109  ls
+  110  cd Documents
+  111  ls
+  112  cd 
+  113  CD 'SQL Server Management Studio'
+  114  CD C:\Users\Tom\Documents\SQL Server Management Studio
+  115  CD SQL Server Management Studio
+  116  CD /'SQL Server Management Studio'
+  117  CD C:\Users\Tom\Documents\"SQL Server Mangement Studio"
+  118  LS
+  119  ls
+  120  Git status
+  121  CLear
+  122  Clear
+  123  ls
+  124  "
+  125  cd C:\Users\Tom\Documents\"SQL Server Management Studio"
+  126  clear
+  127  "
+  128  cd C:\Users\Tom\Documents\'SQL Server Management Studio'
+  129  clear
+  130  ls
+  131  "
+  132  clear
+  133  "\
+  134  fgd
+  135  gfdr
+  136  fg
+  137  fgd
+  138  fgdf
+  139  dfd
+  140  fdg
+  141  '
+  142  clear
+  143  ls
+  144  cd Documents
+  145  ls
+  146  CD 'SQL Server Mangement Studio'
+  147  CD "SQL Server Mangement Studio"
+  148  CD 'My Games'
+  149  CD Battletech
+  150  cd battletech
+  151  cd ...
+  152  cd ..
+  153  ls
+  154  cd 'SQL Server Mangement Studio'
+  155  cd "SQL Server Mangement Studio"
+  156  cd "C:\Users\Tom\Documents\SQL Server Management Studio"
+  157  ls
+  158  git init
+  159  git add "Homework 15-8.30.2020"
+  160  git add "Homework 15-8.30.2020.sql"
+  161  git status
+  162  git add "Mytable.sql"
+  163  Git add Homework 11-8.18.2020.sql
+  164  Git add "Homework 11-8.18.2020.sql
+  165  "
+  166  Git add "Homework 14-8.27.2020.sql"
+  167  git add "Homework 12-8.23.2020.sql"
+  168  Git add "Homework 13-8.25.2020.sql"
+  169  Git add "SQL Server New Strings.pptx"
+  170  Git add "Homework 11-8.18.2020.sql"
+  171  Git add "PROTIP.sql"
+  172  Git add "Homework 10.sql"
+  173  Git add "Homework 9.sql"
+  174  Git add "Homework 9.sql"
+  175  Git add "Sample Data.sql"
+  176  Git add "Homework 8-8.9.2020.sql"
+  177  Git add "Homework 9-8.11.2020.sql"
+  178  Git add "Homework 7-8.4.2020.sql"
+  179  Git add "Homework 5.sql"
+  180  Git add "Homework 6.sql"
+  181  Git add "Homework 4.sql"
+  182  Git add "Homework 3.sql"
+  183  Git add "Homework 2.sql"
+  184  Git add "Corrected Inner.Script for Tuesday 7.22.2020.sql"
+  185  Git add "SUPER CODY-7.12.2020.sql"
+  186  git status
+  187  Git commit
+  188  Git commit
+  189  git remote add origin remote repositiory https://github.com/megrisvernin/My-Data.git
+  190  git remote -v
+  191  git push -f origin master
+  192  git remote add origin repostiory https://github.com/megrisvernin/My-Data.git
+  193  git remote -v
+  194  git status
+  195  git push -f origin master
+  196  git commit -m "first commit"
+  197  git status
+  198  git branch -M master
+  199  git remote add origin https://github.com/megrisvernin/My-Data.git
+  200  git push -u origin master
+  201  cd
+  202  cd
+  203  ls
+  204  cd
+  205  cd documents
+  206  ls
+  207  rm '~$Taylor Porn Actress V1.xlsx' 
+  208  rm '~$Taylor Porn Actress V1.xlsx' 
+  209  ls
+  210  clear
+  211  cd
+  212  ls
+  213  cd documents
+  214  ls
+  215  cd "'SQL Server Management Studio'/
+"
+  216  cd "'SQL Server Management Studio'/
+  217  cd "SQL Server Management Studio"
+  218  ls
+  219  mkdir Homework
+  220  mv *Homework* Homework
+  221   mv *Homework* Homework
+  222  ls
+  223  cd Homework
+  224  ls
+  225  git init
+  226  git add *Homework*
+  227  git status
+  228  git status
+  229  git add .
+  230  Touch Git Notes
+  231  echo "'git add .' will add everything recursively to be committed(without committing yet) >> Git Notes
+cat git notes
+"
+  232  lr git notes
+  233  vi git notes
+  234  ls
+  235  rm git
+  236  rm notes
+  237  echo "'git add .' will add everything recursively to be committed(without committing yet)" >> GitNotes
+  238  cat gitnotes
+  239  echo "'vi' will let you edit a file directly" >> gitnotes
+  240  ech gitnotes
+  241  cat gitnotes
+  242  git status
+  243  git commit -
+  244  git commit -n
+  245  git commit -m "Homework files to be added"
+  246  git log
+  247  git branch -M master
+  248  $ git git remote add origin h
+  249  $ git git remote add origin h
+  250  git remote add origin https://github.com/megrisvernin/sql-homework.git
+  251  git push -u origin master
+  252  git status
+  253  mv "Homework 17.sql" "Homework 17.9.3.2020.sql" 
+  254  ls
+  255  CLEAR
+  256  git fetch
+  257  ls
+  258  git status
+  259  Git add "Homework 17.9.3.2020.sql"
+  260  echo "git fetch" >> Gitnotes
+  261  echo "git pull" >> Gitnotes
+  262  git pull
+  263  git log
+  264  mv "Homework 17.9.3.2020.sql" "Homework 17-9.3.2020.sql"
+  265  git add "Homework 17-9.3.2020.sql" 
+  266  git commit -n
+  267  git status
+  268  git push
+  269  ls
+  270  git pull
+  271  --git status
+  272  git status
+  273  ls
+  274  cat "Homework 9-sql"
+  275  cat "Homework 9.sql"
+  276  ls
+  277  cat "Homework 9-8.11.2020.sql" 
+  278  clear
+  279  git branch deletingHomework9
+  280  git status
+  281  git branch
+  282  git checkout deletingHomework9
+  283  git status
+  284  git branch
+  285  git log
+  286  Git status
+  287  rm "Homework 9-8.11.2020.sql" 
+  288  mv "Homework 9.sql" "Homework 9-8.11.2020.sql"
+  289  git status
+  290  git diff
+  291  git status
+  292  git add .
+  293  git status
+  294  cat gitnotes.sql
+  295  cat gitnotes
+  296  Echo "git diff" >>gitnotes
+  297  git commit
+  298  git log
+  299  git status
+  300  git add .
+  301  git commit
+  302  git commit -m "Update GitNotes"
+  303  git status
+  304  git log
+  305  history
+  306  history | grep "branch"
+  307  history | grep "check"
+  308  git checkout deleteHomework9
+  309  git checkout deletingHomework9
+  310  git branch
+  311  git checkout master
+  312  git branch
+  313  git commit history
+  314  git log
+  315  git checkout-
+  316  git checkout/
+  317  git checkout`
+'
+
+git checkout -
+  318  git checkout-
+  319  git check out -
+  320  git check out-
+  321  git checkout -
+  322  git push
+  323  git push -u
+  324  git push -u DeletingHomework9
+  325  git branch
+  326  git push -u deletingHomework9
+  327  git push origin -master/myBranch
+  328  git push -u origin/myBranch
+  329  git push -u origin/deletingHomework9
+  330  git push -u origin deletingHomework9
+  331  git push
+  332  git status
+  333  history>history.txt
+  334  history>history.txt
