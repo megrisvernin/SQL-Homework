@@ -2,3 +2,4 @@
 'vi' will let you edit a file directly
 git fetch
 git pull
+git diff
