@@ -8,3 +8,4 @@
 --create a copy of the director table as a temp table, insert a row into it 10,00 times (Need Go)
 --Goal is to make time for Select * statement in it take >0 seconds
 --Bonus Update all the HWs to have home problems in tabs --Thomas
+--Bonus is to add GitHub Readmies to all repositories that are public and delete that are just extra.
