@@ -1,0 +1,4 @@
+'git add .' will add everything recursively to be committed(without committing yet)
+'vi' will let you edit a file directly
+git fetch
+git pull
