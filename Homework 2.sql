@@ -84,8 +84,7 @@ SELECT *
 FROM 
 	tblCOUNTry AS a
 
---QUESTION 1:
---List all directors who only make movies in the US
+--#1-List all directors who only make movies in the US
 
 SELECT 
 	d.DirectorName
@@ -105,8 +104,7 @@ HAVING
 
 --Conduct further work in Excel
 
---QUESTION 2:
---For the US list movies by top grossing (ORDER BY)
+--#2-For the US list movies by top grossing (ORDER BY)
 SELECT
 	f.Filmname
 	,c.CountryName
@@ -126,8 +124,7 @@ ORDER BY
 	, c.CountryName
 	,f.Filmname;
 
---QUESTION 3:
---List NZ films by run length (ORDER BY)
+--#3---List NZ films by run length (ORDER BY)
 SELECT
 	f.Filmname
 	,c.CountryName

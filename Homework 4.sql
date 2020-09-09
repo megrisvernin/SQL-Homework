@@ -1,9 +1,7 @@
 USE Movies
---Question 1:
---Is there a way to do Order By with it Formatted as currency
+--#1-Is there a way to do Order By with it Formatted as currency
 
---Question 2:
---Rewrite 5 movie releases by decade with yyyy-mm-dd
+--#2-Rewrite 5 movie releases by decade with yyyy-mm-dd
 SELECT
 	Filmname
 	,FilmReleaseDate

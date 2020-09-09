@@ -1,9 +1,9 @@
--Homework 15
+--Homework 15
 --Add Topics I intro from last Thursday
 --Properly Indent and Format SQL Coding
 
 --Thomas Only
---Problem 1, find the most common SOUNDEX value for the  most common last word of filmnamnes
+--#1Find the most common SOUNDEX value for the  most common last word of filmnamnes
 
 USE MOVIES
 --Test look getting coding for looking Last Word
@@ -62,7 +62,7 @@ GROUP BY
 ORDER BY [Soundex]
 --Noted that movies ending in a number produce SOUNDEX value of 0
 
---Problem 2, find the most common SOUNDEX value for the  most common last word of DirectorName
+--#2 Find the most common SOUNDEX value for the  most common last word of DirectorName
 --Actual lookup
 SELECT
 	SOUNDEX(
@@ -106,8 +106,7 @@ GROUP BY
 	,Directorname
 ORDER BY [Soundex]
 
---Problem 3 
---Homework Problem-Show all customers included the name of whoever referred if they had a referral 
+--#3 Show all customers included the name of whoever referred if they had a referral 
 
 --Add OnlineMarketPlace to Github
 
@@ -151,8 +150,5 @@ FROM [Customer] AS cust
 LEFT OUTER JOIN [Customer] AS refer
 	ON refer.AccountID=cust.ReferralAccountID
 
---Homework Problem-Show all customers included the name of whoever referred if they had a referral 
 Drop Table [Customer]
-
---Ask Andrew how to do Git add multiple files at once
 

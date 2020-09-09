@@ -1,5 +1,5 @@
 --Homework 14
---Problem 1-Find the number of days difference between the earliest film of the 90s and the latest release of the 90s.
+--#1-Find the number of days difference between the earliest film of the 90s and the latest release of the 90s.
 
 USE MOVIES
 
@@ -16,7 +16,7 @@ SELECT
 		FROM tblFilm
 		WHERE YEAR(FilmReleaseDate) LIKE '199_')) AS [DaysDifferent]
 
---Problem 2-Homework Using our College example, Return everyone who enrolled within 5 years.
+--#2-Homework Using our College example, Return everyone who enrolled within 5 years.
 --See My Table
 /*
 Select 
@@ -58,9 +58,6 @@ GROUP BY
 		END 
 		)
 ORDER BY [Count] DESC
-
-
-
 
 SELECT 
 	filmname
@@ -106,18 +103,6 @@ SELECT
 			,CHARINDEX(' ',SUBSTRING(filmname,CHARINDEX(' ',Filmname)+1,LEN(Filmname)))
 	) AS SECONDWORD
 	FROM tblfilm
-
-SELECT
-	filmname
-	,CHARINDEX(' ',filmname) AS FirstSpace
-	,SUBSTRING(filmname,CHARINDEX(' ',filmname)+1,LEN(Filmname)) AS EverythingAfterFirstWord
-	,CHARINDEX(' ',SUBSTRING(filmname,CHARINDEX(' ',filmname)+1,LEN(Filmname))) AS NumberOfCharacters2ndWord
-	,SUBSTRING(
-		SUBSTRING(filmname,CHARINDEX(' ',filmname)+1,LEN(Filmname)),
-		1,
-		CHARINDEX(' ',SUBSTRING(filmname,CHARINDEX(' ',filmname)+1,LEN(Filmname)))
-	)
-FROM tblfilm
 
 
 

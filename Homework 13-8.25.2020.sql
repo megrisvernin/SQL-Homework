@@ -175,11 +175,7 @@ SELECT
 	)) as [DaysDifference]
 
 --Find the number of days difference between the earliest film of the 90s and the latest release of the 90s.
-
-
-
 --SOUNDEX Function
-
 --SOUNDEX Paired-->Tells how close the sound
 
 SELECT
@@ -213,9 +209,6 @@ SELECT
 FilmReleaseDate
 FROM tblfilm 
 WHERE filmreleasedate in
-
-
-
 (
 SELECT
 max(filmreleasedate) as [Releasedate]
@@ -230,8 +223,6 @@ FROM tblfilm
 
 SELECT
 	DATEDIFF(day,GETUTCDATE()-14,GETUTCDATE())
-
-
 
 MAX(FilmreleaseDate)
 FROM tblFilm

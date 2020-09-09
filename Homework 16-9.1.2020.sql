@@ -1,6 +1,5 @@
 --Homework 16
---Problem 1 
---Try to create a schema and try to have two tables same name, one with default dbo other with Schema
+--#1 Try to create a schema and try to have two tables same name, one with default dbo other with Schema
 
 CREATE table test1 (ID int)
 SELECT * from test1
@@ -24,7 +23,7 @@ Drop Schema test
 --Seems to work, didn't install SQl server major program link. Following nhis instructions gives SQL Server Developer 2017 instead of the 2016 in the video.
 
 
---Problem 2 try and write out some date strings, use Cast, Convert and Parse on following
+--#2 Try and write out some strings, use Cast, Convert and Parse on following
 
 --'Saturday 5, September 2020'
 SELECT PARSE('Saturday 5, September 2020' AS date) AS 'Parse1' --Parse Succeeds
@@ -66,8 +65,7 @@ SELECT PARSE('6443,00' AS DEC) AS 'Parse8' --Parse Succeeds
 SELECT CAST('6443,00' AS INT) AS 'Cast8' --Cast Fails
 SELECT CONVERT(INT,'6443,00') AS 'Convert8'	--Convert Fails
 
---Problem 3
---Get movies made in the 80s, save as Temp Table (Method 1)
+--#3 Get movies made in the 80s, save as Temp Table (Method 1)
 USE MOVIES
 SELECT 
 	FilmName
@@ -182,7 +180,7 @@ DROP TABLE #TempTable, #TempTable2
 --remove stuff2
 --remove all files that end in ".txt"
 --use echo and redirection to type "some text" into "text.txt"
-use >> instead of > to append to a file, add the last text "more" to the end of the file
+--use >> instead of > to append to a file, add the last text "more" to the end of the file
 
 --Notes For TempTable
 

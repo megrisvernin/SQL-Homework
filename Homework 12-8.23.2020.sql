@@ -156,7 +156,7 @@ ORDER BY
 
 --I might be interested in setting up a relational dataase for something like a database for college enrollment. Maybe recipes? 
 
---#5 --Run the Joe Buy example of Cast as Date, use Table Data
+--#5 --Run the Joe Blue example of Cast as Date, use Table Data
 --Work with Joey Blue's example CAST(Columname AS DATE)='2005-02-22'
 --Date lookup using Between
 /*
