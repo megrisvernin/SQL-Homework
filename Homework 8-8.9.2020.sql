@@ -1,23 +1,17 @@
 Use Movies
-Select
-*
-From tblFilm
-WHere
-FILMNAME='Serenity'
-
 --Homework 8
 
 --Topics
 --ER diagrams
 
---Question 1: In ER Diagram
+--#1-In ER Diagram
 --Add all columns
 --Appropriate labeling for Datatype
 --Complete
 
---Question 2-Solve the many to many issue for Student to Course tables
+--#2-Solve the many to many issue for Student to Course tables
 
---Question 3-Are you able to change a valid WHERE clause to HAVING nomatter what?
+--#3-Are you able to change a valid WHERE clause to HAVING nomatter what?
 /*Found a good answer here:
 http://www.geekinterview.com/question_details/87837
 Highlights
@@ -42,5 +36,3 @@ to replace the WHERE clause with a GROUP BY / HAVING clause, however doing so wo
 ---> Calculate GPA for a student (CASE Field)
 ---> Add comment fields for any constraintsa
 ---> Create a database for data we create
-
---Question 4--Reassign SQL key to something else
